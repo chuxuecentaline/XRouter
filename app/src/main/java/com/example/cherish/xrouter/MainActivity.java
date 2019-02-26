@@ -20,7 +20,6 @@ public class MainActivity extends BaseActivity {
 
     @Override
     protected void onClick() {
-
     }
 
     public void login(View view) {
