@@ -1,0 +1,8 @@
+
+Ÿsquid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(–ê¬“8ÙĞñ¾’-
+ssquid:S00116"TRename this field "atv_login" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™ÁÂ˜8İÏç’-
+ysquid:S00116"URename this field "edit_phone" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€É½áúÿÿÿÿ8İÏç’-
+wsquid:S00116"SRename this field "edit_psw" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃÒïÙÿÿÿÿÿ8ˆªĞç’-
+esquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(şàÈí
+tsquid:UselessImportCheck"DRemove this unused import 'android.support.annotation.BinderThread'.(·À‰Ãùÿÿÿÿ8ƒÒËç’-
+Ksquid:S1185"(Remove this method to simply inherit it.(¨Œşÿÿÿÿ8±¢“-

@@ -9,6 +9,7 @@
     tools:context="com.example.login.LoginActivity">
 
     <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/edit_phone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="15dp"
@@ -20,6 +21,7 @@
         android:textSize="14sp" />
 
     <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/edit_psw"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="15dp"
@@ -31,6 +33,7 @@
         android:textSize="14sp" />
 
     <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/atv_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"

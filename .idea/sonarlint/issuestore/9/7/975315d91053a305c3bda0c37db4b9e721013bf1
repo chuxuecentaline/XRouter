@@ -1,0 +1,8 @@
+
+nsquid:S00116"ORename this field "tv_1" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıÃ½Ë8Çì¡ğ’-
+nsquid:S1301 "KReplace this "switch" statement by "if" statements to increase readability.(×“¾ñùÿÿÿÿ8ÜÎ¯ğ’-
+psquid:S00116"QRename this field "tv_app" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²÷Óä8‘ÌùÏ’-
+\"squid:SwitchLastCaseIsDefaultCheck ""Add a default case to this switch.(×“¾ñùÿÿÿÿ8ÜÎ¯ğ’-
+ksquid:UselessImportCheck"ARemove this unused import 'android.support.annotation.CallSuper'.(•¨ÿI8ÿªì’-
+wsquid:S00116"SRename this field "tv_login" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íªÆÚıÿÿÿÿ8ÜüñÏ’-
+lsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(‘Ù±8×ÛĞ’-

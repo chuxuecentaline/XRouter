@@ -1,0 +1,6 @@
+
+]squid:UselessImportCheck"3Remove this unused import 'android.content.Intent'.(³ð‹G8áŒîÅ’-
+Csquid:S1172"&Remove these unused method parameters.(ÐÒ™!8ŸÔ»È’-
+Hsquid:S1172"*Remove this unused method parameter "map".(î­óË8ŸÔ»È’-
+Ÿsquid:S1186 "€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(§‚ë…8áŒîÅ’-
+¤squid:S1186%"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÍæˆÕøÿÿÿÿ8ç…ÚÅ’-

@@ -8,18 +8,40 @@
     android:orientation="vertical"
     tools:context="com.example.cherish.xrouter.MainActivity">
 
-    <TextView
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_app"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="宿主app"
         android:textSize="17sp" />
 
     <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:text="ButterKnife"
+        android:textSize="17sp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:background="@color/colorAccent"
-        android:onClick="login"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="live"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tv_login"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
         android:padding="10dp"
         android:text="jump login"
         android:textColor="@android:color/white"
