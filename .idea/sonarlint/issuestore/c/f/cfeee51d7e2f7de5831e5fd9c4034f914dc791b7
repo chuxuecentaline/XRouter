@@ -1,8 +1,14 @@
 
-Ÿsquid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(–ê¬“8ÙĞñ¾’-
-ssquid:S00116"TRename this field "atv_login" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™ÁÂ˜8İÏç’-
-ysquid:S00116"URename this field "edit_phone" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€É½áúÿÿÿÿ8İÏç’-
-wsquid:S00116"SRename this field "edit_psw" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃÒïÙÿÿÿÿÿ8ˆªĞç’-
-esquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(şàÈí
-tsquid:UselessImportCheck"DRemove this unused import 'android.support.annotation.BinderThread'.(·À‰Ãùÿÿÿÿ8ƒÒËç’-
-Ksquid:S1185"(Remove this method to simply inherit it.(¨Œşÿÿÿÿ8±¢“-
+Ksquid:S1185"(Remove this method to simply inherit it.(¨Œşÿÿÿÿ8±¢“-
+zsquid:S1450"WRemove the "edit_psw" field and declare it as a local variable in the relevant methods.(‚øëßıÿÿÿÿ8ÖÇÒ—“-
+xsquid:S00116"TRename this field "atv_login" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼›Ö©ÿÿÿÿÿ8üÖÕ—“-
+wsquid:S00116"SRename this field "edit_psw" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚øëßıÿÿÿÿ8ÖÇÒ—“-
+Isquid:S1659"&Declare "edit_psw" on a separate line.(‚øëßıÿÿÿÿ8ÖÇÒ—“-
+osquid:S1450"RRemove the "pws" field and declare it as a local variable in the relevant methods.(‚âµ@8ü«Ì—“-
+|squid:S1450"YRemove the "edit_phone" field and declare it as a local variable in the relevant methods.(‚øëßıÿÿÿÿ8ÖÇÒ—“-
+{squid:S1450"XRemove the "atv_login" field and declare it as a local variable in the relevant methods.(¼›Ö©ÿÿÿÿÿ8üÖÕ—“-
+tsquid:UselessImportCheck"DRemove this unused import 'android.support.annotation.BinderThread'.(·À‰Ãùÿÿÿÿ8ƒÒËç’-
+ysquid:S00116"URename this field "edit_phone" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚øëßıÿÿÿÿ8ÖÇÒ—“-
+wsquid:S1450"TRemove the "phone" field and declare it as a local variable in the relevant methods.(úøÛ„ûÿÿÿÿ8±ßË—“-
+lsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(şàÈí8ÌÀ¼–“-
+gsquid:UselessImportCheck"<Remove this unused import 'com.xrouter.annotation.BindView'.(åƒ…Ğ8¤ª¾–“-

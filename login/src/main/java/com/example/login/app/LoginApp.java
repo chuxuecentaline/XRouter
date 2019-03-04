@@ -35,7 +35,7 @@ public class LoginApp extends BaseApplication implements IApplication {
 
     @Override
     public void initialzation(Application application) {
-        ServiceFactory.getInstance().setLoginService(new LoginServiceImpl());
+        ServiceFactory.getInstance().addService(new LoginServiceImpl());
     }
 
 

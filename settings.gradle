@@ -1,1 +1,1 @@
-include ':app', ':common', ':login', ':router-annotation', ':router-compiler', ':router', ':live'
+include ':app', ':common', ':login', ':xrouter-annotation', ':xrouter-compiler', ':xrouter', ':live'

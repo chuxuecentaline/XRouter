@@ -53,6 +53,6 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    annotationProcessor project(':router-compiler')
+    annotationProcessor project(':xrouter-compiler')
     implementation project(':common')
 }

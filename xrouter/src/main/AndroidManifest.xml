@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.router">
+    <application>
+        <activity android:name=".wechat.WXPayActivity"></activity>
+    </application>
+</manifest>

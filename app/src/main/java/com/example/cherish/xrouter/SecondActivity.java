@@ -1,12 +1,9 @@
 package com.example.cherish.xrouter;
 
-import android.support.annotation.BinderThread;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.AppCompatImageView;
 
 import com.example.common.base.BaseActivity;
-import com.xrouter.annotation.BindView;
+import com.xrouter.annotation.annotation.BindView;
 
 public class SecondActivity extends BaseActivity {
 

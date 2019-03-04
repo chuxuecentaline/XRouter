@@ -1,10 +1,0 @@
-
-xsquid:S1450"\Remove the "mElementUtils" field and declare it as a local variable in the relevant methods.(ì¶¬Æüÿÿÿÿ
-Msquid:S00108Q")Either remove or fill this block of code.(÷şĞùÿÿÿÿ8¼Œ‹ä’-
-lsquid:S1450"URemove the "mFiler" field and declare it as a local variable in the relevant methods.(ñ‘œ
-~squid:S00116 "ZRename this field "KEY_MODULE_NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İºˆÑıÿÿÿÿ8Šüµã’-
-Osquid:S1481Q",Remove this unused "element" local variable.(÷şĞùÿÿÿÿ8¼Œ‹ä’-
-Msquid:S1068"1Remove this unused "mElementUtils" private field.(ì¶¬Æüÿÿÿÿ
-jsquid:S00112L"FDefine and throw a dedicated exception instead of using a generic one.(”™Èäúÿÿÿÿ8«Ì¸ã’-
-Dsquid:S1170 "!Make this final field static too.(İºˆÑıÿÿÿÿ8Šüµã’-
-Asquid:S1068"*Remove this unused "mFiler" private field.(ñ‘œ

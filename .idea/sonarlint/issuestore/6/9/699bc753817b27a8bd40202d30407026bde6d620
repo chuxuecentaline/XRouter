@@ -1,2 +1,3 @@
 
-¤squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Êç€áşÿÿÿÿ8çŸ²“-
+vsquid:UselessImportCheck"FRemove this unused import 'com.example.common.service.ServiceFactory'.(™ææîıÿÿÿÿ8œŸË–“-
+Fsquid:S11484"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8½Ò˜”“-

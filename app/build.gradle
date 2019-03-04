@@ -1,6 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        config {
+            keyAlias 'xrouter'
+            keyPassword '123456'
+            storeFile file('F:/2019/xrouter.jks')
+            storePassword '123456'
+        }
+    }
     compileSdkVersion Integer.parseInt(COMPILE_SDK_VERSION)
     defaultConfig {
         applicationId "com.example.cherish.xrouter"
@@ -20,17 +28,25 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
         }
+        debug {
+            signingConfig signingConfigs.config
+        }
+    }
+    productFlavors {
     }
 }
 
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
-    annotationProcessor project(':router-compiler')
+    api(name: 'alipaySdk-15.6.0-20190226104053', ext: 'aar')
+    annotationProcessor project(':xrouter-compiler')
     implementation project(':common')
     if (!moduleDev.toBoolean()) {
-       implementation project(':login')
+        implementation project(':login')
         implementation project(':live')
     }
+
 }

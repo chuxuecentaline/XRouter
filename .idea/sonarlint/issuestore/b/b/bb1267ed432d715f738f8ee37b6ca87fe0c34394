@@ -1,2 +1,5 @@
 
-]squid:UselessImportCheck"2Remove this unused import 'android.os.Parcelable'.(õÃÀ­8‚¼“-
+esquid:UselessImportCheck";Remove this unused import 'android.content.ContextWrapper'.(ªÒ¡r8°…¦˜“-
+]squid:UselessImportCheck"2Remove this unused import 'android.os.Parcelable'.(õÃÀ­8‚¼“-
+\squid:UselessImportCheck"1Remove this unused import 'android.app.Activity'.(‡ÊÍÆ8Ú‹ ™“-
+ksquid:UselessImportCheck	"ARemove this unused import 'com.example.common.base.BaseActivity'.(¤ªë'8ÉÉÈ™“-

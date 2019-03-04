@@ -5,15 +5,15 @@ import android.app.Application;
 import com.example.common.base.BaseApplication;
 import com.example.common.config.PackageConfig;
 import com.example.common.service.IApplication;
-import com.example.common.service.ServiceFactory;
-
-import java.lang.reflect.Method;
+import com.example.router.wechat.WXPayActivity;
+import com.xrouter.annotation.annotation.WXPayEntry;
 
 /**
  * @Author: cherish
  * @CreateDate: 2019/2/28 11:00
  */
-
+@WXPayEntry(packageName = "com.example.cherish.xrouter",
+        entryClass = WXPayActivity.class)
 public class App extends BaseApplication implements IApplication {
     private Application application;
     //利用反射

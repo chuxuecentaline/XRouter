@@ -1,5 +1,0 @@
-
-nsquid:UselessImportCheck"DRemove this unused import 'android.support.v4.app.FragmentActivity'.(¸­¯D8ß–³Ï’-
-Xsquid:S1118":Add a private constructor to hide the implicit public one.(Êæšø8åÂ¬Ï’-
-lsquid:UselessImportCheck"<Remove this unused import 'android.support.v4.app.Fragment'.(îñ«úÿÿÿÿ8ß–³Ï’-
-_squid:UselessImportCheck"4Remove this unused import 'android.content.Context'.(©Ê‰è8ß–³Ï’-

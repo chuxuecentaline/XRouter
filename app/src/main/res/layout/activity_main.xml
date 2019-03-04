@@ -40,11 +40,33 @@
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
         android:background="@color/colorAccent"
         android:gravity="center"
         android:padding="10dp"
         android:text="jump login"
-        android:textColor="@android:color/white"
         android:textSize="14sp" />
 
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:text="aliPay"
+        android:id="@+id/aliPay"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:text="weChatPay"
+        android:textSize="14sp"
+        android:id="@+id/weChatPay"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_height="wrap_content" />
 </LinearLayout>

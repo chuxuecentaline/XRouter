@@ -1,19 +1,0 @@
-
-Rsquid:S1481È".Remove this unused "filedName" local variable.(æàñÛúÿÿÿÿ8Äúä“-
-csquid:UnusedPrivateMethodè"1Remove this unused private "getClassName" method.(†Ûëşÿÿÿÿ8è ¬“-
-~squid:S00116>"ZRename this field "KEY_MODULE_NAME" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İºˆÑıÿÿÿÿ8º®£“-
-Dsquid:S1170>"!Make this final field static too.(İºˆÑıÿÿÿÿ8º®£“-
-Fsquid:S00108O")Either remove or fill this block of code.(ßâ8º®£“-
-Xsquid:S1191
-"5Use classes from the Java API instead of Sun classes.(˜Ì±ùÿÿÿÿ8º®£“-
-]squid:S2130Û"9Use "Integer.parseInt" for this string-to-int conversion.(ˆ¤Åúÿÿÿÿ8è ¬“-
-Vsquid:S1068>"3Remove this unused "KEY_MODULE_NAME" private field.(İºˆÑıÿÿÿÿ8º®£“-
-`squid:UnusedPrivateMethod˜"3Remove this unused private "getPackageName" method.(ş²Ó8è ¬“-
-Rsquid:S1481”"3Remove this unused "clickClassName" local variable.(ÓƒğÎ8ÙÇã“-
-[squid:S1481§"7Remove this unused "clickMethodBuilder" local variable.(È’ëğşÿÿÿÿ8î˜Ó“-
-Gsquid:S1148ß"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8è ¬“-
-psquid:UselessImportCheck"@Remove this unused import 'com.xrouter.compiler.util.TextUtils'.(ÿ¢§ùÿÿÿÿ8º®£“-
-Nsquid:S1481Ê"*Remove this unused "resId" local variable.(ƒ•Ëûûÿÿÿÿ8Äúä“-
-Nsquid:UselessImportCheck&"Remove this duplicated import.(˜Ì±ùÿÿÿÿ8º®£“-
-psquid:S3776i"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(¯Âµø8º®£“-
-wsquid:UselessImportCheck#"GRemove this unused import 'javax.lang.model.element.ExecutableElement'.(Ë’¼öüÿÿÿÿ8øÊ«“-

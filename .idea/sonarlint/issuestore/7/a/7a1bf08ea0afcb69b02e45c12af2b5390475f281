@@ -1,7 +1,7 @@
 
-jsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(ôá„‹þÿÿÿÿ
-usquid:S00116"QRename this field "iv_img" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬ó—úÿÿÿÿ8ãß…è’-
-usquid:UselessImportCheck"ERemove this unused import 'android.support.v7.app.AppCompatActivity'.(«Û®ûüÿÿÿÿ8ÈÀýç’-
+qsquid:MaximumInheritanceDepth"<This class has 8 parents which is greater than 5 authorized.(ôá„‹þÿÿÿÿ8¦ðÜ–“-
 tsquid:UselessImportCheck"DRemove this unused import 'android.support.annotation.BinderThread'.(·À‰Ãùÿÿÿÿ8ãß…è’-
-^squid:UselessImportCheck".Remove this unused import 'android.os.Bundle'.(°þÊóøÿÿÿÿ8º£þç’-
 Ÿsquid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(–ê¬“8º£þç’-
+usquid:S00116"QRename this field "iv_img" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬ó—úÿÿÿÿ8ãß…è’-
+^squid:UselessImportCheck".Remove this unused import 'android.os.Bundle'.(°þÊóøÿÿÿÿ8º£þç’-
+usquid:UselessImportCheck"ERemove this unused import 'android.support.v7.app.AppCompatActivity'.(«Û®ûüÿÿÿÿ8ÈÀýç’-

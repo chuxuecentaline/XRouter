@@ -7,7 +7,6 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.Set;
 
 /**
@@ -20,8 +19,8 @@ import java.util.Set;
 
 public class ServiceFactory {
     private static volatile ServiceFactory ourInstance;
-    private static  Context mContext;
-    Set<Object> set = new HashSet();
+    private static Context mContext;
+    private Set<Object> setService = new HashSet();
 
     //将所有的服务对象封装到一个集合中
     public static ServiceFactory getInstance() {
@@ -37,48 +36,40 @@ public class ServiceFactory {
         return ourInstance;
     }
 
-    public static  void init(Context context) {
+    public static void init(Context context) {
         mContext = context;
     }
 
     private ServiceFactory() {
-        if(mContext==null){
+        if (mContext == null) {
             throw new RuntimeException("请在application 中 先执行ServiceFactory.init(context)方法");
         }
     }
 
-
-
-    public void setIiveService(IIiveService iiveService) {
-        set.add(iiveService);
-    }
-
-
-
-    public void setLoginService(ILoginService loginService) {
-        set.add(loginService);
+    public void addService(Object mService) {
+        setService.add(mService);
     }
 
     public <T> T invoke(final Class<T> service) {
 
-        return (T) Proxy.newProxyInstance(service.getClassLoader(), new  Class<?>[] {service}, new InvocationHandler() {
-
-
+        return (T) Proxy.newProxyInstance(service.getClassLoader(), new Class<?>[]{service}, new
+                InvocationHandler() {
             @Override
             public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-                Object newInstance=null;
-                for (Object impl : set) {
-                    if(service.isAssignableFrom(impl.getClass())){
-                        newInstance=impl;
+                Object newInstance = null;
+                for (Object impl : setService) {
+                    if (service.isAssignableFrom(impl.getClass())) {
+                        newInstance = impl;
                     }
                 }
-                if(newInstance==null){
-                    Toast.makeText(mContext,service.getSimpleName()+"模块没有被加载进来",Toast.LENGTH_SHORT).show();
-                   return null;
+                if (newInstance == null) {
+                    Toast.makeText(mContext, service.getSimpleName() + "模块没有被加载进来", Toast
+                            .LENGTH_SHORT).show();
+                    return null;
                 }
 
                 method.setAccessible(true);
-                return method.invoke(newInstance,args);
+                return method.invoke(newInstance, args);
             }
         });
     }

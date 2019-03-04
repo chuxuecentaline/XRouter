@@ -29,6 +29,6 @@ public class LiveApp extends BaseApplication implements IApplication{
 
     @Override
     public void initialzation(Application application) {
-        ServiceFactory.getInstance().setIiveService(new liveServiceImpl());
+        ServiceFactory.getInstance().addService(new liveServiceImpl());
     }
 }

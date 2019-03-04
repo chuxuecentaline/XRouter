@@ -19,6 +19,8 @@ public class BaseApplication extends Application {
     public void onCreate() {
         super.onCreate();
         ServiceFactory.init(this);
+        XRouter.init(this);
+        XRouter.openDebug(BuildConfig.DEBUG);
 
     }
 
